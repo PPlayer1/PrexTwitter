@@ -27,7 +27,7 @@ const test = async(msg)=> {
 
 const rule = new scheduleDM.RecurrenceRule();
 rule.hour =14;
-rule.minute =45;
+rule.minute =50;
 rule.second =0;
 rule.tz = 'Etc/GMT-8';
 
