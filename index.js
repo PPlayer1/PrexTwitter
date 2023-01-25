@@ -32,5 +32,5 @@ rule.second =0;
 rule.tz = 'Etc/GMT-8';
 
 const job = scheduleDM.scheduleJob(rule,()=>{
-    console.log('tite');
+    test('Wek');
 });
