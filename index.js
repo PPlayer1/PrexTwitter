@@ -27,9 +27,9 @@ const test = async(msg)=> {
 
 const rule = new scheduleDM.RecurrenceRule();
 rule.hour =18;
-rule.minute =30;
+rule.minute =50;
 rule.second =0;
-rule.tz = 'Etc/GMT+8';
+rule.tz = 'Etc/GMT-8';
 
 const job = scheduleDM.scheduleJob(rule,()=>{
     test('Wek');
